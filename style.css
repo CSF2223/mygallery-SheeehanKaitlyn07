@@ -1,6 +1,6 @@
 /*
 Color Palette:
-background color:#BE8ABF
+background color:#916BBF
 font color: #000000        
 secondary color:#FFABE1   
 tertiary color: #FFF5E4    
@@ -17,10 +17,10 @@ header{
     margin:0  4rem;
     letter-spacing:  0.8rem;
     text-align: center;
-    border-top: 4px solid #FFABE1;
-    border-bottom: 4px solid #FFABE1;
-    border-right: 4px solid #FFABE1;
-    border-left: 4px solid #FFABE1;
+    border-top: 5px solid #FFABE1;
+    border-bottom: 5px solid #FFABE1;
+    border-right: 5px solid #FFABE1;
+    border-left: 5px solid #FFABE1;
     padding: 2rem;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
     text-transform: uppercase; 
@@ -28,7 +28,7 @@ header{
 }
 
 body {
-    Background-color:#BE8ABF;
+    Background-color:#916BBF;
     color: #000000;
     font-family: 'Open Sans', sans-serif;
     margin: 1;
@@ -53,7 +53,7 @@ p {
 .imageCard img {
     width:100%;
     height: auto;
-    border-radius: 45px;
+    border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba( 0, 0, 0, 0.19); 
 }
 
@@ -65,12 +65,12 @@ p {
 .cardText {
     color: #000000;
     text-align: center;
-    border-top: 4px solid #371B58;
-    border-bottom: 4px solid #371B58;
-    border-right: 4px solid #371B58;
-    border-left: 4px solid #371B58;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+    Border-left: 5px solid #000000;
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-top: 2rem;
     box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba( 0, 0, 0, 0.19); 
     
@@ -124,4 +124,16 @@ img:hover {
 
 .col {
   display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+
+
+img {
+  border: 8px solid #000000;
+}
+
+
+body {
+  height: 3000px; /* Used to enable scrolling */
+  background: linear-gradient(55deg, #BCCEF8 5%, #F637EC 58%, #BCCEF8 85%);
 }
