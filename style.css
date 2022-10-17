@@ -129,7 +129,7 @@ img:hover {
 
 
 img {
-  border: 8px solid #000000;
+  border: 5px solid #000000;
 }
 
 
@@ -137,3 +137,19 @@ body {
   height: 3000px; /* Used to enable scrolling */
   background: linear-gradient(55deg, #BCCEF8 5%, #F637EC 58%, #BCCEF8 85%);
 }
+style 
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform 6s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+ style>
+
+ div class="zoom"></div 
