@@ -1,7 +1,155 @@
 /*
 Color Palette:
-background color:  
-font color:        
-secondary color:   
-tertiary color:    
+background color:#916BBF
+font color: #000000        
+secondary color:#FFABE1   
+tertiary color: #FFF5E4    
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+html {
+    font-size: 62.5%;           /* Default font size is 16px - 62.5 of 16 is 10px -
+                                  1 rem (relative unit) now will be equivalent to 10 px} */ 
+}
+
+header{
+    margin:0  4rem;
+    letter-spacing:  0.8rem;
+    text-align: center;
+    border-top: 5px solid #FFABE1;
+    border-bottom: 5px solid #FFABE1;
+    border-right: 5px solid #FFABE1;
+    border-left: 5px solid #FFABE1;
+    padding: 2rem;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase; 
+    font-size: 1rem;
+}
+
+body {
+    Background-color:#916BBF;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    margin: 1;
+}
+
+cite {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+.imageCard {
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 6rem 4rem;
+}
+.imageCard img {
+    width:100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba( 0, 0, 0, 0.19); 
+}
+
+.imageCard a {
+    text-decoration: none;
+    color:#FFF5E4;
+}
+
+.cardText {
+    color: #000000;
+    text-align: center;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    border-right: 5px solid #000000;
+    Border-left: 5px solid #000000;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 2px 6px 20px 0 rgba( 0, 0, 0, 0.19); 
+    
+}
+
+@media (min-width: 768px) {
+    header {
+        font-size:1.2rem;
+    }
+    
+    
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    
+    .imageCard {
+        max-width: 28%;
+    }
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.col-container {
+  display: table; /* Make the container element behave like a table */
+  width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+
+
+img {
+  border: 5px solid #000000;
+}
+
+
+body {
+  height: 3000px; /* Used to enable scrolling */
+  background: linear-gradient(55deg, #BCCEF8 5%, #F637EC 58%, #BCCEF8 85%);
+}
+style 
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform 6s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+ style>
+
+ div class="zoom"></div 
